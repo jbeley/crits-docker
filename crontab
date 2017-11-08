@@ -1,0 +1,2 @@
+0 * * * *       cd /data/crits/ && /usr/bin/python manage.py mapreduces >/dev/null 2>&1
+0 * * * *       cd /data/crits/ && /usr/bin/python manage.py generate_notifications >/dev/null 2>&1
