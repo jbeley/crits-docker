@@ -71,8 +71,8 @@ RUN echo "/data/crits/logs/crits.log {" > crits ; \
         echo "      copytruncate" >> crits ; \
         echo "}" >> crits
 
-RUN git clone https://github.com/crits/ /data/crits/
-RUN git clone https://github.com/crits_services/ /data/crits_services.unused/
+RUN git clone https://github.com/crits/crits/ /data/crits/
+RUN git clone https://github.com/crits/crits_services/ /data/crits_services.unused/
 #ADD ./crits /data/crits/
 #ADD ./crits_services /data/crits_services.unused/
 
